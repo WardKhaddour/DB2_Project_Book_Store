@@ -22,4 +22,3 @@ end //
 
 delimiter ;
 
-call rateBook(3, 2);

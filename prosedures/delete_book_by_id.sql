@@ -23,4 +23,3 @@ end //
 
 delimiter ;
 
-call deleteBookByID(3);

@@ -29,7 +29,7 @@ begin
     leave lbl;
   end if;
 
-  if not ok = 1 then 
+  if ok = 0 then 
   fetch get_cur into bookID;
   call buyBook(bookID);
   end if;
@@ -40,4 +40,3 @@ end //
 
 delimiter ;
 
-call buyAllBooksInCategory(1);
