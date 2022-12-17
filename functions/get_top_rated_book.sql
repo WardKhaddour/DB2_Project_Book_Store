@@ -12,8 +12,8 @@ begin
   select name, rateAvg, rateCount into book_name,book_rate_avg,book_rate_count from book where rateAvg = (select max(rateAvg) from book);
 
   return concat(book_name, " is the top rated book, having ", book_rate_avg, " rate from ", book_rate_count, " rates!");
-end
+end //
 
-delimiter //
+delimiter ;
 
 

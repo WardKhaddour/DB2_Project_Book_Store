@@ -13,7 +13,7 @@ begin
   insert into category(name) values ('math');
   insert into category(name) values ('Physics');
 
-end;
+end //
 
-delimiter //
+delimiter ;
 

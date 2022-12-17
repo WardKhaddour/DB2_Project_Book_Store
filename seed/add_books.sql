@@ -196,7 +196,7 @@ values
     "Arabic",
     "Physics"
   );
-end;
+end //
 
-delimiter //
+delimiter ;
 

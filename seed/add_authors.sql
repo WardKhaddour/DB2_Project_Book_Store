@@ -16,7 +16,7 @@ insert into author(name) values ("author 4");
 
 insert into author(name) values ("author 5");
 
-end;
+end //
 
-delimiter //
+delimiter ;
 
